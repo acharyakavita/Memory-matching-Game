@@ -1,20 +1,15 @@
 # Memory Game Project
+This is a Udacity project based on HTML5,CSS and ES6
 
-## Table of Contents
+## Steps to Play:
+It is a browser based card matching game.There are 8 pair of cards randomly placed in the deck.
+1. One has two select two cards,
+2. Remember the symbol on those two cards.
+3. If the card matches,it will turn green and face over.
+4. If the card does not match , both cards are flipped face down.
+5. One has to remember the position of unmatched cards and match them in less time.
+6. The game ends once all the cards match.
+## How to run :
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+1. Download or Clone the Repository.
+2. Open index.html file to view the project in your browser.
