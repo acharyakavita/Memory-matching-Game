@@ -1,0 +1,95 @@
+<!--HTML page for the memory match game*/-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Memory Matching Game</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="heading">Memory Matching Game</h1>
+    </header>
+
+    <main class="container">
+        <!--help and restart buttons-->
+        <section class="button-set">
+            <button class="help">Help</button>
+            <button class="restart">Restart</button>
+
+            <!--help modal-->
+            <article class="help-modal">
+                <div class="help-content">
+                    <span class="close">&times;</span>
+                    <p>Match all the 8 pair of cards to win the game.<br>Start with selecting and matching any 2 cards.<br>Have
+                        fun!!!☺</p>
+                </div>
+            </article>
+        </section>
+        <!--tables having current game scores and leader board-->
+        <section class="tables">
+            <!--current game score panel-->
+            <article class="score-panel">
+                <h3>Current Game</h3>
+                <table>
+                    <tr>
+                        <th>Rating</th>
+                        <td>
+                            <span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Moves</th>
+                        <td><span class="move-count">0</span></td>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td><span class="timer">00:00:00</span></td>
+                    </tr>
+                </table>
+            </article>
+            <!--leader board-->
+            <article class="board">
+                <h3>Leader Board</h3>
+                <table>
+                    <tr>
+                        <th>5★ wins</th>
+                        <td><span class="stars5">0</span></td>
+                    </tr>
+                    <tr>
+                        <th>4★ wins</th>
+                        <td><span class="stars4">0</span></td>
+                    </tr>
+                    <tr>
+                        <th>Best &#9203</th>
+                        <td><span class="bestTime">00:00:00</span></td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <!--deck of 16 cards-->
+        <section class="deck-box">
+            <ul class="deck"></ul>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
