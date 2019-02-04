@@ -1,5 +1,6 @@
 # Memory Game Project
 This is a Udacity project based on HTML5,CSS and ES6
+It is live as https://memory-matching-game-2d317.firebaseapp.com/
 
 ## Steps to Play:
 It is a browser based card matching game.There are 8 pair of cards randomly placed in the deck.
